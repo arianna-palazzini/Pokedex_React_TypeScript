@@ -1,0 +1,14 @@
+#dettaglio-pokemon {
+  background-color: #f8fefe;
+  padding: 30px;
+  border-radius: 6px;
+  -webkit-box-shadow: 5px 5px 10px gray;
+          box-shadow: 5px 5px 10px gray;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#dettaglio-pokemon li {
+  list-style-type: none;
+}
+/*# sourceMappingURL=Pokemon.css.map */

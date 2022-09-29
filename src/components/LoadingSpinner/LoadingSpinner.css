@@ -1,0 +1,30 @@
+.loading-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: var(--secondary);
+  font-size: 18px;
+  font-style: italic;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  opacity: 0.75;
+  z-index: 10000;
+}
+
+.loading-container img {
+  height: 30vh;
+  width: 100%;
+}
+/*# sourceMappingURL=LoadingSpinner.css.map */

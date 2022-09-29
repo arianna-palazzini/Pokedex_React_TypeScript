@@ -1,0 +1,23 @@
+.loading-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    background-color: black;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: var(--secondary);
+    font-size: 18px;
+    font-style: italic;
+    flex-wrap: wrap;
+    opacity: 0.75;
+    z-index: 10000;
+  
+    img {
+      height: 30vh;
+      width: 100%;
+    }
+  }

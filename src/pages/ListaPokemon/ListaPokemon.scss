@@ -1,0 +1,37 @@
+#lista-pokemon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .pokemon-in-lista{
+        flex-basis: 20%;
+        border: none;
+        border-radius: 3px;
+        box-shadow: 5px 5px 10px gray;
+        background-color: yellow;
+        color: rgb(14, 14, 145);
+        font-size: 14px;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding: 30px;
+        margin: 5px;
+
+        &:hover{
+            background-color: rgb(199, 199, 10);
+        }
+    }
+}
+
+#div-crea{
+    margin-top: 20px;
+}
+
+
+.navlink{
+    border-radius: 50%;
+    padding: 3px;
+    width: 30px;
+    height: 30px;
+    background-color:rgb(17, 30, 103);
+    margin: 10px;
+}

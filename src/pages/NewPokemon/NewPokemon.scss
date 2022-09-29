@@ -1,0 +1,37 @@
+#aggiungi-pokemon {
+    background-color: rgb(252, 252, 131);
+    padding: 30px;
+    border-radius: 6px;
+    box-shadow: 5px 5px 10px grey;
+    width: 415px;
+    margin: 0 auto;
+
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    input, select{
+        margin-bottom: 5px;
+        border: 1px solid rgb(17, 30, 103);
+        border-radius: 6px;
+        height: 22px;
+        width: 300px;
+    }
+
+    label{
+        font-weight: bold;
+        color: rgb(17, 30, 103);
+    }
+
+    button{
+        border: none;
+        background-color: rgb(17, 30, 103);
+        border-radius: 6px;
+        margin-top: 10px;
+        max-width: 100px;
+        padding: 5px;
+        color: white;
+    }
+}

@@ -1,0 +1,17 @@
+#header{
+    background-color: rgb(17, 30, 103);
+    padding: 10px;
+    margin-bottom: 10px;
+
+    h2{
+        color: yellow;
+    }
+
+    #logout{
+        border: none;
+        background-color: transparent;
+        color: yellow;
+        font-size: large;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,46 @@
+#aggiungi-pokemon {
+  background-color: #fcfc83;
+  padding: 30px;
+  border-radius: 6px;
+  -webkit-box-shadow: 5px 5px 10px grey;
+          box-shadow: 5px 5px 10px grey;
+  width: 415px;
+  margin: 0 auto;
+}
+
+#aggiungi-pokemon form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#aggiungi-pokemon input, #aggiungi-pokemon select {
+  margin-bottom: 5px;
+  border: 1px solid #111e67;
+  border-radius: 6px;
+  height: 22px;
+  width: 300px;
+}
+
+#aggiungi-pokemon label {
+  font-weight: bold;
+  color: #111e67;
+}
+
+#aggiungi-pokemon button {
+  border: none;
+  background-color: #111e67;
+  border-radius: 6px;
+  margin-top: 10px;
+  max-width: 100px;
+  padding: 5px;
+  color: white;
+}
+/*# sourceMappingURL=NewPokemon.css.map */

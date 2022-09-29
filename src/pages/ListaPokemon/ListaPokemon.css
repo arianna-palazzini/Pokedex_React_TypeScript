@@ -1,0 +1,44 @@
+#lista-pokemon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#lista-pokemon .pokemon-in-lista {
+  -ms-flex-preferred-size: 20%;
+      flex-basis: 20%;
+  border: none;
+  border-radius: 3px;
+  -webkit-box-shadow: 5px 5px 10px gray;
+          box-shadow: 5px 5px 10px gray;
+  background-color: yellow;
+  color: #0e0e91;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 30px;
+  margin: 5px;
+}
+
+#lista-pokemon .pokemon-in-lista:hover {
+  background-color: #c7c70a;
+}
+
+#div-crea {
+  margin-top: 20px;
+}
+
+.navlink {
+  border-radius: 50%;
+  padding: 3px;
+  width: 30px;
+  height: 30px;
+  background-color: #111e67;
+  margin: 10px;
+}
+/*# sourceMappingURL=ListaPokemon.css.map */

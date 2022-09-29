@@ -1,0 +1,18 @@
+#header {
+  background-color: #111e67;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#header h2 {
+  color: yellow;
+}
+
+#header #logout {
+  border: none;
+  background-color: transparent;
+  color: yellow;
+  font-size: large;
+  cursor: pointer;
+}
+/*# sourceMappingURL=Header.css.map */
